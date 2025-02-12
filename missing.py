@@ -19,7 +19,7 @@
 # 4
 
 def missing(n, nums):
-    n_sum = n*(n+1)/2
+    n_sum = n*(n+1)//2
     curr_sum = 0
     for num in nums:
         curr_sum += num

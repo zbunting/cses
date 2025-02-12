@@ -25,7 +25,7 @@ def weird(n):
     if n <= 1:
         return
     elif n % 2 == 0:
-        weird(n/2)
+        weird(n//2)
     else:
         weird(n*3+1)
 
